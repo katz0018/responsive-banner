@@ -9,7 +9,7 @@
 }
 
 .button {
-  text-align: center;
+  text-align: left;
 }
 
 h1, p {
@@ -19,6 +19,14 @@ h1, p {
 .btn, .btn-ghost {
   color: #fff;
   border-color: #97a49b;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .button {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {

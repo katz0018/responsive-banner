@@ -25,6 +25,8 @@ h1, p {
 
   .colour {
    background: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+   position: absolute;
+   bottom: 0;
   }
 
   .image {

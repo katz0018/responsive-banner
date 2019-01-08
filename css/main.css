@@ -1,0 +1,38 @@
+.colour {
+  background-color: #495562;
+}
+
+.image {
+  overflow: none;
+  max-height: 500px;
+}
+
+.button {
+  text-align: center;
+}
+
+h1, p {
+  color: #fff;
+}
+
+.btn, .btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .colour {
+   background: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  .image {
+    overflow: hidden;
+    max-height: 500px;
+  }
+
+  .btn, .btn-ghost {
+    border-color: #fff;
+  }
+
+}

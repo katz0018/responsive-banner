@@ -8,10 +8,6 @@ html {
   width: 100%;
 }
 
-.image {
-  max-height: 500px;
-}
-
 .button {
   text-align: left;
 }
@@ -37,11 +33,6 @@ h1, p {
     text-align: center;
   }
 
-  .image {
-    overflow: hidden;
-    max-height: 500px;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -50,6 +41,7 @@ h1, p {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     position: absolute;
     bottom: 0;
+    background-color: transparent;
   }
 
   .image {

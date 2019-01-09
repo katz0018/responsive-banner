@@ -1,5 +1,5 @@
 html {
-  font-family: 'Georgia', Serif:
+  font-family: Georgia, Serif:
 }
 
 .colour {
@@ -8,7 +8,6 @@ html {
 }
 
 .image {
-  overflow: none;
   max-height: 500px;
 }
 
@@ -22,7 +21,13 @@ h1, p {
 
 .btn, .btn-ghost {
   color: #fff;
-  border-color: #97a49b;
+  border: solid 4px #97a49b;
+}
+
+.btn-ghost:hover {
+  background-color: #efefef;
+  color: #495562;
+  border-color: #efefef;
 }
 
 @media only screen and (min-width: 38em) {

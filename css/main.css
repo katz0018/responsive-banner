@@ -16,6 +16,10 @@ h1, p {
   color: #fff;
 }
 
+.colour p {
+  line-height: 1.0rem;
+}
+
 .btn, .btn-ghost {
   color: #fff;
   border: solid 3px #97a49b;
